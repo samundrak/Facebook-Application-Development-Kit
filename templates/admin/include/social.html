@@ -1,0 +1,135 @@
+ <div class="row"><div class="caption lead" ><div style="color:white;width:auto;background-color:red;">{$admin->editPopUp()}</div>
+ {showImg('__stylesheet/__images/icons/popup.png',16,16,'center')}{$lang->admin->page->social->title}
+ </div></div>
+<form action="" method="post">
+<div class="col-md-5">
+  <ul class="list-group">
+    <li class="list-group-item active">
+      
+         <ul>
+          <li>{$lang->admin->hints->ol->i}</li>
+          <li>{$lang->admin->hints->ol->ii}</li>
+          <li>{$lang->admin->hints->ol->iii}</li>
+        </ul>
+    </li>
+	
+  
+	 <li class="list-group-item"> 
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->social->p_title}" data-trigger="hover">{$lang->admin->page->social->p_title}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->title}"/>
+    </li>
+   
+        
+     
+    <li class="list-group-item"> 
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->announce}" data-trigger="hover">{$lang->admin->page->social->announce}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->announce}"/>
+     </li>
+	 
+     <li class="list-group-item"> 
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->social->a_header}" data-trigger="hover">{$lang->admin->page->social->a_header}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->announce_header}"/>
+     </li>
+    
+	<li class="list-group-item"> 
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->limit} " data-trigger="hover">{$lang->admin->page->social->limit}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->limit}"/>
+     </li>
+    
+     
+	 <li class="list-group-item"> 
+	  <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="  {$lang->admin->hints->social->out_click} " data-trigger="hover">{$lang->admin->page->social->out_click}</label>
+      <select name="input[]">
+          <option value="{$admin->json->out_click}">{$admin->json->out_click} (Default)</option>
+          <option value="ON">{$lang->admin->page->on}</option>
+          <option value="OFF">{$lang->admin->page->off}</option>
+        </select>
+    </li>
+     
+	 <li class="list-group-item"> 
+      <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->esc_click} " data-trigger="hover">{$lang->admin->page->social->esc_click}</label>
+      <select name="input[]">
+          <option value="{$admin->json->esc_click}">{$admin->json->esc_click} (Default)</option>
+          <option value="ON">{$lang->admin->page->on}</option>
+          <option value="OFF">{$lang->admin->page->off}</option>
+        </select>
+     </li>
+    
+       <li class="list-group-item"> 
+	 <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="  {$lang->admin->hints->social->f_a_id}" data-trigger="hover">{$lang->admin->page->social->f_a_id}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->facebook_app_id}"/>
+     </li>
+    
+      
+	  <li class="list-group-item">
+	   <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->f_p_usr} " data-trigger="hover">{$lang->admin->page->social->f_p_usr}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->facebook_page}"/>
+    </li>
+    
+      
+	  <li class="list-group-item"> 
+      <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="  {$lang->admin->hints->social->t_u}" data-trigger="hover">{$lang->admin->page->social->t_u}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->twitter_username}"/>
+     </li>
+    
+      
+	  <li class="list-group-item"> 
+	   <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->t_w_i}  " data-trigger="hover">{$lang->admin->page->social->t_w_i}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->twitter_widget_id}"/>
+      
+    </li>
+    
+	<li class="list-group-item"> 
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->g_t} " data-trigger="hover">{$lang->admin->page->social->g_t}</label>
+      <select name="input[]">
+          <option value="{$admin->json->gplus_type}">{$admin->json->gplus_type} (Default)</option>
+          <option value="person">{$lang->admin->page->person}</option>
+          <option value="page">{$lang->admin->page->page}</option>
+        </select>
+    </li>
+    
+      
+	  <li class="list-group-item"> 
+	  <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->social->g_i} " data-trigger="hover">{$lang->admin->page->social->g_i}</label>
+      <input class="form-control"  type="text" name="input[]" value="{$admin->json->gplus_id}"/>
+     </li>
+    
+       
+	  <li class="list-group-item"> 
+	    <input class="btn btn-primary " type="submit" name="submit"/></li>
+    </li>
+  </ul></div> 
+  <div class="col-md-7">
+      <ul class="list-group">
+		<li class="list-group-item active"> <label for="name" >{$lang->admin->page->preview}</label></li>
+	   <li class="list-group-item"> 
+       <img src="__stylesheet/__images/popup.jpg" width="590px" height="440px"/>
+    </li>
+    
+	  </ul>
+  </div>
+</form>

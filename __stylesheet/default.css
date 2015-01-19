@@ -1,0 +1,1164 @@
+body {font-family:fontOfApp;
+	background-color: gray;
+	overflow-x: hidden;
+	
+}
+ 
+
+ 
+
+#head {font-family:fontOfApp;
+
+ min-height:90px;
+  height:90px;
+  max-height:90px;
+ 
+background-color:#428bca;
+ 	/*animation: anim_2 3s;
+	-webkit-animation: anim_2 3s;
+	-moz-animation: anim_2 3s;
+	-ms-animation: anim_2 3s;
+	-o-animation: anim_2 3s;*/
+	background-image:url('__images/logo.png');
+	background-repeat:no-repeat;
+}
+#head .appName{font-family:fontOfApp;
+   
+   float:left;
+  color:white;
+  font-size:40px;
+  padding-top:30px;
+  text-shadow:2px 1px 1px black;
+  transition: color 3s,text-shadow 2s;
+  cursor:pointer;
+  min-height:90px;
+  height:90px;
+  max-height:90px;
+  position:relative;font-family:fontOfApp;
+  
+  
+}
+#head .appName:hover{font-family:fontOfApp;
+   color:white;
+   text-shadow:2px -10px 30px orange;
+}
+#head sup{font-family:fontOfApp;
+  padding:0px;
+margin-left:-12px;
+
+}
+#head .appLogo{font-family:fontOfApp;
+   width:167px;
+   height:inherit;
+   background-image:url('__images/watch-now.png');
+   float:left;
+   position:relative;font-family:fontOfApp;
+  
+}
+#content {font-family:fontOfApp;
+	width: 980px;
+	height: 300px;
+	background-color: none;
+}
+#content textarea:focus {font-family:fontOfApp;
+	outline: 0;
+}
+#content .box1 {font-family:fontOfApp;
+	width: 200px;
+	height: 300px;
+	background-image: url('__images/side-bar.jpg');
+	float: left;
+	border-bottom-left-radius: 10px;
+border-top-left-radius: 0px;
+}
+#content .box1 .inviteBox {font-family:fontOfApp;
+	width: 200px;
+	height: auto;
+}
+#content .box1 .inviteBox .likeBanner {font-family:fontOfApp;
+	width: 200px;
+	height: 100px;
+	background-image: url('__images/one.png');
+}
+#content .box1 .inviteButton .finalButton {font-family:fontOfApp;
+	width: 160px;
+	height: 50px;
+	background-image: url('__images/invite.png');
+	background-color: transparent;
+	border-style: solid;
+	border-color: transparent;
+	cursor: pointer;
+	margin-left: 30px;
+}
+#content .box1 .inviteButton .finalButton:hover {font-family:fontOfApp;
+	width: 160px;
+	height: 50px;
+	background-image: url('__images/inviteHover.png');
+}
+  .box2 {font-family:fontOfApp;
+	background-color:#f8f8f8;
+}
+  .box2:hover{font-family:fontOfApp;
+overflow:auto;
+overflow-x: hidden;
+}
+ 
+ .ads_2 {font-family:fontOfApp;
+	width: 700px;
+height: 290px;
+background-color: black;
+position: relative;
+margin-top: -300px;
+margin-left: 10px;
+opacity: 0.9;
+border-radius: 2px;
+box-shadow: 0px 0px 10px black;
+display: none;
+color: white;
+-moz-box-shadow: 0px 0px 10px black;
+}
+.ads_3 {font-family:fontOfApp;
+	width: 555px;
+	height: 90px;
+	background-color: black;
+	position: relative;
+	margin-top: -100px;
+	margin-left: 80px;
+	color: white;
+	display: none;
+	opacity: 0.9;
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+}
+.Xlose {font-family:fontOfApp;
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.Xlose span {font-family:fontOfApp;
+	color: white;
+	float: right;
+	background-color: red;
+	border-radius: 100px;
+	width: 20px;
+	text-align: center;
+	transition: color 2s, background-color 2s;
+}
+
+.Xlose span:hover {font-family:fontOfApp;
+	color: black;
+	background-color: white;
+}
+.adsIsHere {font-family:fontOfApp;
+	margin-left: 200px;
+	margin-top: 5px;
+}
+#content .box3 {font-family:fontOfApp;
+	width: 180px;
+	height: 300px;
+	background-image: url('__images/side-bar.jpg');
+	float: left;
+	border-bottom-right-radius: 10px;
+border-top-right-radius: 0px;
+}
+#content .box2 .loadingGif {font-family:fontOfApp;
+	display: none;
+	margin-left: 200px;
+	margin-top: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+ .box2 .txtInput {font-family:fontOfApp;
+	display: none;
+	width: 720px;
+	height: 300px;
+	font-size: 32px;
+	font-style: none;
+	font-family: verdana;
+	resize: none;
+	border-style: dotted;
+	border-color: gray;
+	color: black;
+	border-width: 0px;
+	
+}
+.box2 .txtBg{font-family:fontOfApp;
+	width: 720px;
+	height: 240px;
+background-image: url("__images/copyPhoto.jpg");
+}
+  .box2 .txtInput .txtTop {font-family:fontOfApp;
+	width: 580px;
+	height: 82px;
+	clear: both;
+}
+ .box2 .txtInput .txtLeft {font-family:fontOfApp;
+	width: 110px;
+	height: 175px;
+	float: left;
+}
+  .box2 .txtInput .txtRight {
+	width: 470px;
+	height: 160px;
+	float: left;
+}
+.navbar-brand{
+font-family:fontOfApp;
+}
+  .box2 .txtInput .addButton {font-family:fontOfApp;
+	width: 580px;
+	height: 58px;
+}
+  .box2 .txtInput .addButton .buttonGroup {font-family:fontOfApp;
+	margin-left: 110px;
+}
+ 
+ 
+ 
+#footer {font-family:fontOfApp;
+	width: 980px;
+	height: 123px;
+	background-image: url("__images/side-bar.jpg");
+	box-shadow:0px 0px 10px black;
+-moz-box-shadow:0px 0px 10px black;
+	border-radius: 20px;
+	margin-top:5px;
+	z-index:-1;
+}
+#footer .footerBox {font-family:fontOfApp;
+	width: 600px;
+	height: 123px;
+	float: left;
+	margin-left: 170px;
+	margin-top: 20px;
+}
+#footer .publishBox {font-family:fontOfApp;
+	float: left;
+}
+#footer .publishBox .publishButton {font-family:fontOfApp;
+	width: 380px;
+	height: 70px;
+	background-image: url("__images/hover-publish.png");
+	background-color: transparent;
+	border-style: solid;
+	border-color: transparent;
+	cursor: pointer;
+}
+#footer .publishBox .loginButton {font-family:fontOfApp;
+	width: 380px;
+	height: 70px;
+	background-image: url("__images/loginApp.png");
+	background-color: transparent;
+	border-style: solid;
+	border-color: transparent;
+	cursor: pointer;
+}
+#footer .publishBox .loginButton:hover {font-family:fontOfApp;
+	background-image: url("__images/loginAppHover.png");
+}
+#footer .publishBox .publishButton:hover {font-family:fontOfApp;
+	background-image: url("__images/publish.png");
+}
+#footer .reloadBox {font-family:fontOfApp;
+	float: left;
+}
+#footer .reloadBox .reloadButton {font-family:fontOfApp;
+	width: 200px;
+	height: 70px;
+	background-image: url("__images/hover-reload.png");
+	background-color: transparent;
+	border-style: solid;
+	border-color: transparent;
+	cursor: pointer;
+}
+#footer .reloadBox .reloadButton:hover {font-family:fontOfApp;
+	background-image: url("__images/reload.png");
+}
+#footer .reloadBox .exitButton {font-family:fontOfApp;
+	width: 210px;
+	height: 70px;
+	background-image: url("__images/exitApp.png");
+	background-color: transparent;
+	border-style: solid;
+	border-color: transparent;
+	cursor: pointer;
+}
+#footer .reloadBox .exitButton:hover {font-family:fontOfApp;
+	background-image: url("__images/exitAppHover.PNG");
+}
+.adsMedia {font-family:fontOfApp;
+	width: 980px;
+	height: 90px;
+	background-image: url("__images/footer-bg.png");
+	border-radius: 20px;
+}
+#content input {font-family:fontOfApp;
+	/*color: white;
+	font-size: 15px;
+	text-align: center;
+	background: -webkit-radial-gradient(center, red 20%, #333 100%);
+	background: -moz-radial-gradient(center, red 20%, #333 100%);
+	background: -ms-radial-gradient(center, red 20%, #333 100%);
+	background: -o-radial-gradient(center, red 20%, #333 100%);
+	width: 450px;
+	height: 40px;
+	border-radius: 0px 50px 50px 0px;
+	border-style: none;
+	border-width: 3px;
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+
+	font-family: inherit;
+	transition: outline 3s;
+	text-shadow: 1px 2px 2px black;*/
+}
+#content select {font-family:fontOfApp;
+	text-shadow: 1px 2px 2px black;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	background: -webkit-radial-gradient(center, red 20%, #333 100%);
+	background: -moz-radial-gradient(center, red 20%, #333 100%);
+	background: -ms-radial-gradient(center, red 20%, #333 100%);
+	background: -o-radial-gradient(center, red 20%, #333 100%);
+	width: 450px;
+	height: 40px;
+	border-radius: 0px 50px 50px 0px;
+	border-style: none;
+	border-width: 3px;
+	font-family: inherit;
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+
+}
+#content option{font-family:fontOfApp;
+color:black;
+
+}
+#content .tdStyle {font-family:fontOfApp;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	background: -webkit-radial-gradient(center, red 20%, #333 100%);
+	background: -moz-radial-gradient(center, red 20%, #333 100%);
+	background: -ms-radial-gradient(center, red 20%, #333 100%);
+	background: -o-radial-gradient(center, red 20%, #333 100%);
+	text-shadow: 1px 2px 2px black;
+	width: 150px;
+	height: 30px;
+	border-radius: 50px 0px 0px 50px;
+	border-style: none;
+	font-family: inherit
+}
+#content input:focus {font-family:fontOfApp;
+	outline: 1;
+	outline-color: cyan;
+	outline-width: 3px;
+	outline-radius: 20px;
+}
+#content table {font-family:fontOfApp;
+	margin-top: 30px;
+	background-color: transparent;
+}
+#content td {font-family:fontOfApp;
+	color: white;
+	font-size: 20px;
+	height: 50px;
+	text-align: center;
+}
+#content td a {font-family:fontOfApp;
+	color: white;
+	text-decoration: none
+}
+#content td a:hover {font-family:fontOfApp;
+	color: cyan
+}
+#content input[type="submit"] {font-family:fontOfApp;
+	/*width: 200px;
+	background-color: transparent;
+	background-image: url(__images/loginImg.PNG);
+	border-style: none;
+	cursor: pointer;
+	border-radius: 50px;*/
+}
+
+.caption {font-family:fontOfApp;
+	font-size: 40px;
+	color: white;
+	background-color: #428bca;
+    cursor: pointer;
+	  /*-webkit-animation: anim_1 2s;
+	-moz-animation: anim_1 2s;
+	-ms-animation: anim_1 2s;
+	animation: anim_1 2s;*/
+}
+textarea {font-family:fontOfApp;
+	color: white;
+	font-size: 15px;
+	resize: none;
+	border-style: inset;
+	border-width: 1px;
+	border-color:black;
+	font-family: inherit
+}
+#hints {font-family:fontOfApp;
+	background-color: red;
+	border-style: solid;
+	opacity: 0.8;
+	font-size: 10px;
+	background: -webkit-linear-gradient(top, red 10%, black);
+	background: -moz-linear-gradient(top, red 10%, black);
+	background: -ms-linear-gradient(top, red 10%, black);
+	background: -o-linear-gradient(top, red 10%, black);
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+	color: white;
+}
+.hints {font-family:fontOfApp;
+	background-color: red;
+	border-style: solid;
+	display: none;
+	opacity: 0.8;
+	font-size: 10px;
+	background: -webkit-linear-gradient(top, red 10%, black);
+	background: -moz-linear-gradient(top, red 10%, black);
+	background: -ms-linear-gradient(top, red 10%, black);
+	background: -o-linear-gradient(top, red 10%, black);
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+	color: white;
+}
+#hints ol li {font-family:fontOfApp;
+	font-size: 15px;
+	text-align: left;
+}
+#content input[type="checkbox"] {font-family:fontOfApp;
+	width: auto;
+	height: auto;
+}
+ul {font-family:fontOfApp;
+	/* width: 370px; */
+	height: auto;
+}
+ul li {font-family:fontOfApp;
+ 
+	  /*-webkit-animation: anim_2 2s;
+	-moz-animation: anim_1 2s;
+	-ms-animation: anim_1 2s;
+	-o-animation: anim_1 2s;
+	animation: anim_1 2s;
+	width: 150px;
+	list-style-type: none;
+	  background: -webkit-radial-gradient(top, red 10%, black);
+	background: -moz-radial-gradient(top, red 10%, black);
+	background: -ms-radial-gradient(top, red 10%, black);
+	background: -o-radial-gradient(top, red 10%, black);  
+	box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+	color: white;
+	margin-bottom: 2px;
+	min-height: 25px;
+	height: auto;
+	font-size: 15px;
+	line-height: 25px;
+	overflow: hidden;
+	margin-left: -40px;
+	text-align: left;
+	padding-left: 10px;
+  transition: background 5s, margin-left 1s;  
+	border: 1px solid white;
+	border-radius: 10px;
+	opacity: 0.9;
+	cursor:pointer; */
+}
+ul li:hover {font-family:fontOfApp;
+/* 	margin-left: -30px;
+	background: -webkit-linear-gradient(bottom, red 10%, black);
+	background: -moz-linear-gradient(bottom, red 10%, black);
+	background: -ms-linear-gradient(bottom, red 10%, black);
+	background: -o-linear-gradient(bottom, red 10%, black); */
+}
+.dlt_photos {font-family:fontOfApp;
+	display: none;
+}
+#admin_info li {font-family:fontOfApp;
+	width: 350px;
+	text-align: justify;
+	margin-left: -200px;
+	padding: 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 10px;
+}
+.info_focus {font-family:fontOfApp;
+
+font-weight: bold;
+font-size: 10px;
+
+padding: 5px;
+text-align: left;
+ 
+ 
+}
+.info_lists {font-family:fontOfApp;
+	display: none;
+	position: absolute;
+	 margin-top:-150px;
+	 left:300px;
+}
+.dlt_img {font-family:fontOfApp;
+	border-style: solid;
+	border-color: white;
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 155px;
+	height: 175px;
+	float: left;
+}
+.dlt_ft {font-family:fontOfApp;
+	background-color: black;
+	height: 75px;
+	width: 150px;
+	margin-top: -5px;
+	color: white;
+	font-size: 10px;
+}
+#content input[type="radio"] {font-family:fontOfApp;
+	width: auto;
+		box-shadow: 0px 0px 0px black;
+	-moz-box-shadow: 0px 0px 0px black;
+height: auto;
+}
+  .box2 .txtInput .txtRight textarea {font-family:fontOfApp;
+	width: 550px;
+height: 150px;
+background-color: transparent;
+border-style: none;
+border-color: none;
+resize: none;
+font-size: 20px;
+color: gray;
+line-height: 35px;
+background: transparent;
+	 
+}
+@-webkit-keyframes anim_1 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+margin-top:440px;
+color:red;
+font-family:verdana;
+}
+ 50% {font-family:fontOfApp;
+margin-top:-0px;
+margin-left:0px;
+color:cyan;
+}
+ 70% {font-family:fontOfApp;
+margin-left:385px;
+color:orange;
+-webkit-transform:rotateX(360deg)
+}
+}
+@-moz-keyframes anim_1 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+margin-top:440px;
+color:red;
+font-family:verdana;
+}
+ 50% {font-family:fontOfApp;
+margin-top:-0px;
+margin-left:0px;
+color:cyan;
+}
+ 70% {font-family:fontOfApp;
+margin-left:385px;
+color:orange;
+-moz-transform:rotateX(360deg)
+}
+}
+@-ms-keyframes anim_1 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+margin-top:440px;
+color:red;
+font-family:verdana;
+}
+ 50% {font-family:fontOfApp;
+margin-top:-0px;
+margin-left:0px;
+color:cyan;
+}
+ 70% {font-family:fontOfApp;
+margin-left:385px;
+color:orange;
+-ms-transform:rotateX(360deg)
+}
+}
+@keyframes anim_1 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+margin-top:440px;
+color:red;
+font-family:verdana;
+}
+ 50% {font-family:fontOfApp;
+margin-top:-0px;
+margin-left:0px;
+color:cyan;
+}
+ 70% {font-family:fontOfApp;
+margin-left:385px;
+color:orange;
+transform:rotateX(360deg)
+}
+}
+ @-webkit-keyframes anim_2 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+background-position:980px;
+}
+ 25% {font-family:fontOfApp;
+background-position:1800px;
+}
+ 50% {font-family:fontOfApp;
+background-position:0px;
+}
+ 75% {font-family:fontOfApp;
+background-position-y:400px;
+}
+}
+@-moz-keyframes anim_2 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+background-position:980px;
+}
+ 25% {font-family:fontOfApp;
+background-position:1800px;
+}
+ 50% {font-family:fontOfApp;
+background-position:0px;
+}
+ 75% {font-family:fontOfApp;
+background-position-y:400px;
+}
+}
+@-ms-keyframes anim_2 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+background-position:980px;
+}
+ 25% {font-family:fontOfApp;
+background-position:1800px;
+}
+ 50% {font-family:fontOfApp;
+background-position:0px;
+}
+ 75% {font-family:fontOfApp;
+background-position-y:400px;
+}
+}
+@-o-keyframes anim_2 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+background-position:980px;
+}
+ 25% {font-family:fontOfApp;
+background-position:1800px;
+}
+ 50% {font-family:fontOfApp;
+background-position:0px;
+}
+ 75% {font-family:fontOfApp;
+background-position-y:400px;
+}
+}
+@keyframes anim_2 {font-family:fontOfApp;
+ 10% {font-family:fontOfApp;
+background-position:980px;
+}
+ 25% {font-family:fontOfApp;
+background-position:1800px;
+}
+ 50% {font-family:fontOfApp;
+background-position:0px;
+}
+ 75% {font-family:fontOfApp;
+background-position-y:400px;
+}
+}
+.listHref {font-family:fontOfApp;
+	color: white;
+	transition: color 2s;
+	text-decoration: none;
+}
+.listHref:hover {font-family:fontOfApp;
+	color: cyan;
+}
+#popupFeature {font-family:fontOfApp;
+top:100px;
+overflow: hidden;
+width: 465px;
+min-height: 415px;
+height: auto;
+border-radius: 10px;
+/* border-style: solid; */
+/* border-width: 1px; */
+/* margin-left: 17px; */
+/* margin-top: 10px; */
+border-color: transparent;
+position: fixed;
+background-color: white;
+z-index: 9999;
+left: 460px;
+box-shadow: 0px 0px 10px black;
+-moz-box-shadow: 0px 0px 10px black;
+display: none;
+}
+#popupFeature .body {font-family:fontOfApp;
+	width: inherit;
+	min-height: 420px;
+	height: auto;
+	overflow: hidden;
+	/* Internet Explorer 10 */
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	/* Safari, Chrome, and Opera */
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	/* W3C */
+	display: box;
+	box-pack: center;
+	box-align: center;
+	 
+	font-size: 25px;
+}
+#sw_windowBox {font-family:fontOfApp;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: 9999;
+	 
+}
+/*ANIMATION XZ_BG_INDEX*/   
+@-webkit-keyframes anim_3 {font-family:fontOfApp;
+0% {font-family:fontOfApp;
+-webkit-transform: translate(2px, 1px) rotate(0deg);
+}
+ 10% {font-family:fontOfApp;
+-webkit-transform: translate(-1px, -2px) rotate(-1deg);
+}
+ 20% {font-family:fontOfApp;
+-webkit-transform: translate(-3px, 0px) rotate(1deg);
+}
+ 30% {font-family:fontOfApp;
+-webkit-transform: translate(0px, 2px) rotate(0deg);
+}
+ 40% {font-family:fontOfApp;
+-webkit-transform: translate(1px, -1px) rotate(1deg);
+}
+ 50% {font-family:fontOfApp;
+-webkit-transform: translate(-1px, 2px) rotate(-1deg);
+}
+ 60% {font-family:fontOfApp;
+-webkit-transform: translate(-3px, 1px) rotate(0deg);
+}
+ 70% {font-family:fontOfApp;
+-webkit-transform: translate(2px, 1px) rotate(-1deg);
+}
+ 80% {font-family:fontOfApp;
+-webkit-transform: translate(-1px, -1px) rotate(1deg);
+}
+ 90% {font-family:fontOfApp;
+-webkit-transform: translate(2px, 2px) rotate(0deg);
+}
+ 100% {font-family:fontOfApp;
+-webkit-transform: translate(1px, -2px) rotate(-1deg);
+}
+}
+@-mz-keyframes anim_3 {font-family:fontOfApp;
+0% {font-family:fontOfApp;
+-mz-transform: translate(2px, 1px) rotate(0deg);
+}
+ 10% {font-family:fontOfApp;
+-mz-transform: translate(-1px, -2px) rotate(-1deg);
+}
+ 20% {font-family:fontOfApp;
+-mz-transform: translate(-3px, 0px) rotate(1deg);
+}
+ 30% {font-family:fontOfApp;
+-mz-transform: translate(0px, 2px) rotate(0deg);
+}
+ 40% {font-family:fontOfApp;
+-mz-transform: translate(1px, -1px) rotate(1deg);
+}
+ 50% {font-family:fontOfApp;
+-mz-transform: translate(-1px, 2px) rotate(-1deg);
+}
+ 60% {font-family:fontOfApp;
+-mz-transform: translate(-3px, 1px) rotate(0deg);
+}
+ 70% {font-family:fontOfApp;
+-mz-transform: translate(2px, 1px) rotate(-1deg);
+}
+ 80% {font-family:fontOfApp;
+-mz-transform: translate(-1px, -1px) rotate(1deg);
+}
+ 90% {font-family:fontOfApp;
+-mz-transform: translate(2px, 2px) rotate(0deg);
+}
+ 100% {font-family:fontOfApp;
+-mz-transform: translate(1px, -2px) rotate(-1deg);
+}
+}
+@-ms-keyframes anim_3 {font-family:fontOfApp;
+0% {font-family:fontOfApp;
+-ms-transform: translate(2px, 1px) rotate(0deg);
+}
+ 10% {font-family:fontOfApp;
+-ms-transform: translate(-1px, -2px) rotate(-1deg);
+}
+ 20% {font-family:fontOfApp;
+-ms-transform: translate(-3px, 0px) rotate(1deg);
+}
+ 30% {font-family:fontOfApp;
+-ms-transform: translate(0px, 2px) rotate(0deg);
+}
+ 40% {font-family:fontOfApp;
+-ms-transform: translate(1px, -1px) rotate(1deg);
+}
+ 50% {font-family:fontOfApp;
+-ms-transform: translate(-1px, 2px) rotate(-1deg);
+}
+ 60% {font-family:fontOfApp;
+-ms-transform: translate(-3px, 1px) rotate(0deg);
+}
+ 70% {font-family:fontOfApp;
+-ms-transform: translate(2px, 1px) rotate(-1deg);
+}
+ 80% {font-family:fontOfApp;
+-ms-transform: translate(-1px, -1px) rotate(1deg);
+}
+ 90% {font-family:fontOfApp;
+-ms-transform: translate(2px, 2px) rotate(0deg);
+}
+ 100% {font-family:fontOfApp;
+-ms-transform: translate(1px, -2px) rotate(-1deg);
+}
+}
+@keyframes anim_3 {font-family:fontOfApp;
+0% {font-family:fontOfApp;
+transform: translate(2px, 1px) rotate(0deg);
+}
+ 10% {font-family:fontOfApp;
+transform: translate(-1px, -2px) rotate(-1deg);
+}
+ 20% {font-family:fontOfApp;
+transform: translate(-3px, 0px) rotate(1deg);
+}
+ 30% {font-family:fontOfApp;
+transform: translate(0px, 2px) rotate(0deg);
+}
+ 40% {font-family:fontOfApp;
+transform: translate(1px, -1px) rotate(1deg);
+}
+ 50% {font-family:fontOfApp;
+transform: translate(-1px, 2px) rotate(-1deg);
+}
+ 60% {font-family:fontOfApp;
+transform: translate(-3px, 1px) rotate(0deg);
+}
+ 70% {font-family:fontOfApp;
+transform: translate(2px, 1px) rotate(-1deg);
+}
+ 80% {font-family:fontOfApp;
+transform: translate(-1px, -1px) rotate(1deg);
+}
+ 90% {font-family:fontOfApp;
+transform: translate(2px, 2px) rotate(0deg);
+}
+ 100% {font-family:fontOfApp;
+transform: translate(1px, -2px) rotate(-1deg);
+}
+}
+/*IT ENDS*/
+@-webkit-keyframes anim_4{font-family:fontOfApp;
+  0%{font-family:fontOfApp;-webkit-transform: rotateY(0deg);}
+  100%{font-family:fontOfApp;-webkit-transform: rotateY(360deg);}
+}
+@-moz-keyframes anim_4{font-family:fontOfApp;
+  0%{font-family:fontOfApp;-moz-transform: rotateY(0deg);}
+  100%{font-family:fontOfApp;-moz-transform: rotateY(360deg);}
+}@-ms-keyframes anim_4{font-family:fontOfApp;
+  0%{font-family:fontOfApp;-ms-transform: rotateY(0deg);}
+  100%{font-family:fontOfApp;-ms-transform: rotateY(360deg);}
+}@-o-keyframes anim_4{font-family:fontOfApp;
+  0%{font-family:fontOfApp;-o-transform: rotateY(0deg);}
+  100%{font-family:fontOfApp;-o-transform: rotateY(360deg);}
+}@keyframes anim_4{font-family:fontOfApp;
+  0%{font-family:fontOfApp;transform: rotateY(0deg);}
+  100%{font-family:fontOfApp;transform: rotateY(360deg);}
+}
+.shiney{font-family:fontOfApp;width: 300px;
+height: 700px;
+background-color: white;
+position: fixed;
+z-index: 9999;
+opacity: 0.1;
+-webkit-transform: skew(-40deg);
+-moz-transform: skew(-40deg);
+transform: skew(-40deg);
+-ms-transform: skew(-40deg); 
+
+background: -webkit-linear-gradient(left,white 20%,black 50%,white 90%);
+background: -moz-linear-gradient(left,white 20%,black 50%,white 90%);
+background: -ms-linear-gradient(left,white 20%,black 50%,white 90%);
+background: -o-linear-gradient(left,white 20%,black 50%,white 90%);
+background: linear-gradient(left,white 20%,#333 50%,black 100%);
+/*animation: anim_5 5s;
+-ms-animation: anim_5 5s;
+-moz-animation: anim_5 5s;
+-o-animation: anim_5 5s;
+-webkit-animation: anim_5 5s;*/
+visibility:hidden;
+}
+
+@-webkit-keyframes anim_5{font-family:fontOfApp;
+   0%{font-family:fontOfApp;left:-500px;visibility:visible;}
+   80%{font-family:fontOfApp;left:3000px;}
+   100%{font-family:fontOfApp;left:1800px;}
+}@-moz-keyframes anim_5{font-family:fontOfApp;
+   0%{font-family:fontOfApp;left:-500px;visibility:visible;}
+   80%{font-family:fontOfApp;left:1600px;}
+   100%{font-family:fontOfApp;left:1600px;}
+}@-o-keyframes anim_5{font-family:fontOfApp;
+   0%{font-family:fontOfApp;left:-500px;visibility:visible;}
+   80%{font-family:fontOfApp;left:1600px;}
+   100%{font-family:fontOfApp;left:1600px;}
+}@-ms-keyframes anim_5{font-family:fontOfApp;
+   0%{font-family:fontOfApp;left:-500px;visibility:visible;}
+   80%{font-family:fontOfApp;left:1600px;}
+   100%{font-family:fontOfApp;left:1600px;}
+}@keyframes anim_5{font-family:fontOfApp;
+   0%{font-family:fontOfApp;left:-500px;visibility:visible;}
+   80%{font-family:fontOfApp;left:1600px;}
+   100%{font-family:fontOfApp;left:1600px;}
+}
+
+/*ANIMATION IMG_0*/
+@-webkit-keyframes img_0{font-family:fontOfApp;
+ 
+0%{font-family:fontOfApp;margin-left:-100px;margin-top:-100px;width:10px;height:10px;opacity:0.0;border-radius:100px;}
+30%{font-family:fontOfApp;margin-left:300px;margin-top:300px;width:100px;height:100px;}
+50%{font-family:fontOfApp;margin-left:250px;margin-top:250px;width:100px;height:100px;}
+55%{font-family:fontOfApp;margin-left:250px;margin-top:360px;width:100px;height:100px;opacity:1;}
+80%{font-family:fontOfApp;margin-left:50px;margin-top:50px;}
+100%{font-family:fontOfApp;width:530px;height:430px;border-radius:0px;}
+ }
+ @-mz-keyframes img_0{font-family:fontOfApp;
+ 
+0%{font-family:fontOfApp;margin-left:-100px;margin-top:-100px;width:10px;height:10px;opacity:0.0;border-radius:100px;}
+30%{font-family:fontOfApp;margin-left:300px;margin-top:300px;width:100px;height:100px;}
+50%{font-family:fontOfApp;margin-left:250px;margin-top:250px;width:100px;height:100px;}
+55%{font-family:fontOfApp;margin-left:250px;margin-top:360px;width:100px;height:100px;opacity:1;}
+80%{font-family:fontOfApp;margin-left:50px;margin-top:50px;}
+100%{font-family:fontOfApp;width:530px;height:430px;border-radius:0px;}
+ }@-ms-keyframes img_0{font-family:fontOfApp;
+ 
+0%{font-family:fontOfApp;margin-left:-100px;margin-top:-100px;width:10px;height:10px;opacity:0.0;border-radius:100px;}
+30%{font-family:fontOfApp;margin-left:300px;margin-top:300px;width:100px;height:100px;}
+50%{font-family:fontOfApp;margin-left:250px;margin-top:250px;width:100px;height:100px;}
+55%{font-family:fontOfApp;margin-left:250px;margin-top:360px;width:100px;height:100px;opacity:1;}
+80%{font-family:fontOfApp;margin-left:50px;margin-top:50px;}
+100%{font-family:fontOfApp;width:530px;height:430px;border-radius:0px;}
+ }
+@keyframes img_0{font-family:fontOfApp;
+ 
+0%{font-family:fontOfApp;margin-left:-100px;margin-top:-100px;width:10px;height:10px;opacity:0.0;border-radius:100px;}
+30%{font-family:fontOfApp;margin-left:300px;margin-top:300px;width:100px;height:100px;}
+50%{font-family:fontOfApp;margin-left:250px;margin-top:250px;width:100px;height:100px;}
+55%{font-family:fontOfApp;margin-left:250px;margin-top:360px;width:100px;height:100px;opacity:1;}
+80%{font-family:fontOfApp;margin-left:50px;margin-top:50px;}
+100%{font-family:fontOfApp;width:530px;height:430px;border-radius:0px;}
+ }
+/*IT ENDS*/ 
+ 
+/*ANIMATION IMG_1*/ 
+@keyframes img_1{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:50px;height:50px;margin-left:250px;margin-top:250px;opacity:0.1;border-radius:100px;}
+50%{font-family:fontOfApp;transform:rotate(360deg);width:50px;height:50px;}
+ 100%{font-family:fontOfApp;width:530px;height:430px;opacity:1;}
+}
+@-webkit-keyframes img_1{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:50px;height:50px;margin-left:250px;margin-top:250px;opacity:0.1;border-radius:100px;}
+ 
+50%{font-family:fontOfApp;-webkit-transform:rotate(360deg);width:50px;height:50px;}
+ 
+100%{font-family:fontOfApp;width:530px;height:430px;opacity:1;}
+} 
+}@-ms-keyframes img_1{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:50px;height:50px;margin-left:250px;margin-top:250px;opacity:0.1;border-radius:100px;}
+ 
+50%{font-family:fontOfApp;-ms-transform:rotate(360deg);width:50px;height:50px;}
+ 
+100%{font-family:fontOfApp;width:530px;height:430px;opacity:1;}
+}
+/*IT ENDS*/
+
+
+/*ANIMATION IMG_2*/
+@-webkit-keyframes img_2{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:200px;margin-top:200px;}
+ 
+30%{font-family:fontOfApp;-webkit-transform:rotateX(360deg);}
+70%{font-family:fontOfApp;margin-top:400px;-webkit-transform:rotateY(360deg);}
+ 
+}
+@-mz-keyframes img_2{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:200px;margin-top:200px;}
+ 
+30%{font-family:fontOfApp;-mz-transform:rotateX(360deg);}
+70%{font-family:fontOfApp;margin-top:400px;-mz-transform:rotateY(360deg);}
+ 
+}@-ms-keyframes img_2{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:200px;margin-top:200px;}
+ 
+30%{font-family:fontOfApp;-ms-transform:rotateX(360deg);}
+70%{font-family:fontOfApp;margin-top:400px;-webkit-transform:rotateY(360deg);}
+ 
+}
+@keyframes img_2{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:200px;margin-top:200px;}
+ 
+30%{font-family:fontOfApp;transform:rotateX(360deg);}
+70%{font-family:fontOfApp;margin-top:400px;-webkit-transform:rotateY(360deg);}
+ 
+}
+/*IT ENDS*/
+
+/*ANIMATION IMG_3*/
+@-webkit-keyframes img_3{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:500px;margin-top:500px;}
+50%{font-family:fontOfApp;-webkit-transform:skew(360deg);}
+70%{font-family:fontOfApp;-webkit-transform:skew(180deg);}
+80%{font-family:fontOfApp;-webkit-transform:skew(360deg);}
+}
+@-mz-keyframes img_3{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:500px;margin-top:500px;}
+50%{font-family:fontOfApp;-mz-transform:skew(360deg);}
+70%{font-family:fontOfApp;-mz-transform:skew(180deg);}
+80%{font-family:fontOfApp;-mz-transform:skew(360deg);}
+}
+@-ms-keyframes img_3{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:500px;margin-top:500px;}
+50%{font-family:fontOfApp;-ms-transform:skew(360deg);}
+70%{font-family:fontOfApp;-ms-transform:skew(180deg);}
+80%{font-family:fontOfApp;-ms-transform:skew(360deg);}
+}
+@keyframes img_3{font-family:fontOfApp;
+0%{font-family:fontOfApp;width:100px;height:100px;margin-left:500px;margin-top:500px;}
+50%{font-family:fontOfApp;transform:skew(360deg);}
+70%{font-family:fontOfApp;transform:skew(180deg);}
+80%{font-family:fontOfApp;transform:skew(360deg);}
+}
+/*IT ENDS*/
+
+/*ANIMATION IMG_4*/
+@-webkit-keyframes img_4{font-family:fontOfApp;
+0%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+30%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+50%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+70%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+70%{font-family:fontOfApp;border-radius:0px 0px 0px 0px;}
+}
+@-mz-keyframes img_4{font-family:fontOfApp;
+0%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+30%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+50%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+70%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+70%{font-family:fontOfApp;border-radius:0px 0px 0px 0px;}
+}@-ms-keyframes img_4{font-family:fontOfApp;
+0%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+30%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+50%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+70%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+70%{font-family:fontOfApp;border-radius:0px 0px 0px 0px;}
+}
+@keyframes img_4{font-family:fontOfApp;
+0%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+30%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+50%{font-family:fontOfApp;border-radius:100px 0px 100px 0px;}
+70%{font-family:fontOfApp;border-radius:0px 100px 0px 100px;}
+70%{font-family:fontOfApp;border-radius:0px 0px 0px 0px;}
+}
+/*IT ENDS*/
+#imgFile{font-family:fontOfApp;
+width:inherit;
+height:inherit;
+overflow:hidden;
+}
+#admin_info {font-family:fontOfApp;
+width: 300px;
+height: auto;
+margin-top: -100px;
+}
+#alert .title{font-family:fontOfApp;
+	 border-bottom-style: inset;
+     width:inherit;
+	 height:30px;
+	 font-size:20px;
+	 text-align:center;
+	 color:white;
+	 background-color:#428bca;
+	 box-shadow:0px 0px 5px black;
+	 -moz-box-shadow:0px 0px 5px black;
+	 line-height:30px;
+	 
+}
+#alert .content{font-family:fontOfApp;
+color: white;
+font-style: italic;
+font-size: 20px;
+padding: 10px;
+min-height: 75px;
+height:auto;
+background-color:#428bca;
+}
+#alert .footer{font-family:fontOfApp;
+     width:inherit;
+	 height:30px;
+	 font-size:20px;
+	 text-align:center;
+	 color:white;
+	 box-shadow:0px 0px 5px black;
+	 -moz-box-shadow:0px 0px 5px black;
+	 line-height:30px;
+	 cursor:pointer;
+	 background-color:#428bca;
+}
+#alert{font-family:fontOfApp;
+   width:400px;
+   min-height:135px;
+   height:auto;
+    box-shadow:0px 0px 10px black;
+   -moz-box-shadow:0px 0px 10px black;
+   position:fixed;
+   top:250px;
+   left:450px;
+   overflow:hidden;
+   z-index: 10000;
+   
+ 
+}
+
+
+#alert .footer:hover{font-family:fontOfApp;
+ background-color:#2483D5;
+}
+

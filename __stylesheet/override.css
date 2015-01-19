@@ -1,0 +1,22 @@
+.backColor{
+background-color: rgb(228, 228, 228);
+}
+.navbar {
+ margin-bottom:10px;
+ 
+}
+.bottomRadius{
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+
+}
+.colorWhite{
+background-color:white;
+}
+.shadowHere{
+box-shadow:1px 1px 10px;
+-moz-box-shadow:1px 1px 10px;
+}
+.info_focus{
+ font-size:20px;
+}

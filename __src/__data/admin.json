@@ -1,0 +1,13 @@
+{
+    "popup"     : "on",
+	
+    "change_bg" : "on",
+	
+    "ads_one"   : "on",
+	
+    "ads_two"   : "off",
+	
+    "ads_three" : "off",
+	
+	"app"       : "on"
+}

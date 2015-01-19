@@ -1,0 +1,52 @@
+<style>
+    .img-responsive { height:300px; }
+</style>
+ 
+<div class="box2" style="height:300px;overflow:hidden;">
+   <div id="imgFile" style="color:white;"><img id="dynamicImg" class="img-responsive" src="{$img_link}" width="720px" height="350px"/>
+     
+   </div>
+   {if adminOrder('ads_2') == "on"}
+	 <div class="ads_2">
+	   <div class="Xlose"><span onclick="$('.ads_2').fadeOut(1000);">X</span></div>
+	   <div class="adsIsHere">
+	   {adminOrder('adsSlot_2','config')}
+	   </div>
+	 </div>
+	 {/if}
+	  {if adminOrder('ads_3') == "on" }
+	    {if adminOrder('ads_2') == "off" }
+     <div class="ads_3" style="display:block">
+	   {else}
+	     <div class="ads_3">
+	   {/if}
+	 <div class="Xlose"><span onclick="$('.ads_3').fadeOut(1000);">X</span></div>
+	 <div class="adsIsHere">
+	  {adminOrder('adsSlot_3','config')}
+	  </div>
+	 </div>
+     	  {/if}
+	<div class="row">	   
+     <div class="col-md-12 loadingGif" style="display:none;">
+	<div class="progress progress-striped active">
+   <div id="goProgress" class="progress-bar progress-bar-success" role="progressbar" 
+      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" 
+      style="width:5%;">
+      <span class="sr-only">80% Complete</span>
+   </div>
+</div><label for="name" class="col-md-12 col-md-push-4">{$lang->index->p_wait}<br/><span id="loadingTxt">{$lang->index->wait}</span></label>
+	  </div> 
+	 </div>
+     
+	 <div class="txtInput">
+	    <div class="txtBg">
+	 <div class ="txtTop"></div>
+	 <div class="txtLeft"></div>
+	 <div class="txtRight" >
+	 <textarea class="form-control shareMsg" placeholder="{$lang->index->t_a_placeholder}" ></textarea></div>
+	 </div>
+	 <div class="btn-group" style="width:inherit;float:left;">
+	  <button class="btn btn-success" onclick="getShareMsg('{$img_link}')">Share</button>
+	 <button class="btn btn-primary" onclick="closeTxtArea()">Close</button>
+	 </div> 
+	  </div></div>

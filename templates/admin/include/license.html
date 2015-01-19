@@ -1,0 +1,32 @@
+ <div class="row"><div class="caption lead" ><div style="color:white;width:auto;background-color:red;">{$admin->editLicense()}</div>
+ {showImg('__stylesheet/__images/icons/license.png',16,16,'center')}{$lang->admin->page->license->title}
+</div></div>
+<form action="" method="post">
+  <ul class="list-group">
+    <li class="list-group-item active">License Details</li>
+	<li class="list-group-item">
+       <label for="name">{$lang->admin->page->license->username} </label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->admin}"/> 
+    </li>
+    <li class="list-group-item">
+       <label for="name">{$lang->admin->page->license->key} </label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->key}"/> 
+    </li>
+    <li class="list-group-item">
+       <label for="name">{$lang->admin->page->license->email} </label>
+       <input class="form-control" type="email" name="input[]" required value="{$admin->json->email}"/> 
+    </li>
+    <li class="list-group-item">
+       <label for="name">{$lang->admin->page->license->a_code} </label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->app}"/> 
+    </li>
+    <li class="list-group-item">
+       <label for="name">{$lang->admin->page->license->d_code} </label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->on}"/> 
+    </li>
+    <li class="list-group-item">
+      <input class="btn btn-primary " type="submit" name="submit"/>
+       
+    </li>
+  </ul>
+</form>

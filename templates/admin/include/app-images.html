@@ -1,0 +1,35 @@
+<div class="row"><div class="caption lead" >{showImg('__stylesheet/__images/icons/app-image.png',16,16,'center')}{$lang->admin->page->settings->appImages->title}</div>
+</div>
+<div class="row">
+ <div class="col-md-4">
+<form action="" method="post" enctype="multipart/form-data">
+  <ul class="list-group">
+   <li class="list-group-item active">
+  <label for="name">{$lang->admin->page->settings->appImages->r_msg}</label>
+      </li>
+	  <li class="list-group-item"> <br/>
+	   <img src="__stylesheet/__images/login-bg.jpg" width="320px" height="200px" style="border:2px solid white;" id="previewThumb"/>
+	 </li> 
+	 <li class="list-group-item">
+      <input class="form-control" type="file" name="file" id="file"/>
+     {$lang->admin->page->settings->appImages->s_t}
+      <select class="form-control" name="c2i" id="selectOption">
+      <option value="0">none</option>
+       {$admin->selectOption('__stylesheet/__images/')}
+	 
+        </select></li>
+      <li class="list-group-item">
+       <input class="form-control btn-primary" type="submit" name="submit" value="Upload"/> </li>
+    </ul>
+</form> 
+ </div>
+  
+ <div class="col-md-8">
+<form action="" method="post">
+  {include file="templates/admin/include/tiny_parts/buttons.html"}
+  <br/>
+  <br/>
+  {$admin->showImg(3,'__stylesheet')}
+</form> 
+</div>
+</div>

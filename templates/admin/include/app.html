@@ -1,0 +1,172 @@
+
+<div class="row"><div class="caption lead" ><div style="color:white;width:auto;background-color:red;">{$admin->editConfig()}</div>
+ {showImg('__stylesheet/__images/icons/application.png',16,16,'center')}{$lang->admin->page->app->title}  </div></div>
+ 
+<form action="" method="post">
+   <ul class="list-group">  
+    
+	<li class="list-group-item active">
+      
+      <ul>
+          <li>{$lang->admin->hints->ol->i}</li>
+          <li>{$lang->admin->hints->ol->ii}</li>
+          <li>{$lang->admin->hints->ol->iii}</li>
+        </ul>
+     </li>
+
+ 
+   <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->a_id}" data-trigger="hover">{$lang->admin->page->app->a_id}</label>
+       <input class="form-control" class="form-control"type="text" name="input[]" required value="{$admin->json->id}"/>
+    </li>
+  
+      
+      
+    
+    
+  <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->a_secret}" data-trigger="hover">
+      {$lang->admin->page->app->a_secret}</label>
+       <input class="form-control"  class="form-control" type="text" name="input[]" required value="{$admin->json->secret}"/>
+    </li>
+  
+   
+      
+    
+     <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->a_url}" data-trigger="hover">
+      {$lang->admin->page->app->a_url}</label>
+       <input class="form-control" class="form-control" type="url" name="input[]" required value="{$admin->json->url}"/>
+    </li>
+  
+     
+       
+    
+     <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->f_page}" data-trigger="hover">
+      {$lang->admin->page->app->f_page}</label>
+       <input class="form-control" type="url" name="input[]" required value="{$admin->json->page}"/>
+    </li>
+  
+       
+    
+     <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->p_msg}" data-trigger="hover">
+      {$lang->admin->page->app->p_msg}</label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->post_msg}"/>
+  </li>  
+  
+     
+      
+    
+     <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->i_msg}" data-trigger="hover">
+      {$lang->admin->page->app->i_msg}</label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->inviteMsg}"/>
+    </li>
+  
+     
+    
+     <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->p_title} " data-trigger="hover">
+      {$lang->admin->page->app->p_title}</label>
+       <input class="form-control" type="text" name="input[]" required value="{$admin->json->pageTitle}"/>
+    </li>
+   
+       
+    
+       <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="   {$lang->admin->hints->ad_script}" data-trigger="hover">
+      {$lang->admin->page->app->ad_script}</label>
+      <textarea class="form-control" rows="3" type="text" name="input[]"   required  />
+        {$admin->json->adsScript}
+        </textarea>
+		</li>
+    
+  
+  
+    
+    
+       <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->hints->ad_slot}" data-trigger="hover">
+      {$lang->admin->page->app->ad_slot}</label>
+      <textarea class="form-control" rows="3" type="text" name="input[]"   required  />
+        {$admin->json->adsSlot}
+        </textarea></li>
+     
+       
+    
+       <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->ad_slot2}" data-trigger="hover">
+      {$lang->admin->page->app->ad_slot2}</label>
+      <textarea class="form-control" rows="3" type="text" name="input[]"   required  />
+        {$admin->json->adsSlot_2}
+        </textarea>
+    </li>
+  
+      
+	     <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="   {$lang->admin->hints->ad_slot3}" data-trigger="hover">
+      {$lang->admin->page->app->ad_slot3}</label>
+      <textarea class="form-control" rows="3" type="text" name="input[]"   />
+        {$admin->json->adsSlot_3}
+        </textarea>
+    </li>
+  
+   
+      <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content=" {$lang->admin->hints->fn_name}" data-trigger="hover"> 
+      {$lang->admin->page->app->fn_name}</label>
+      <select class="form-control" name="input[]">
+          <option value="{$admin->json->fontName}">{$admin->json->fontName}</option>
+          
+		   {$admin->selectOption('__stylesheet/__fonts')}
+		   
+        </select></li>
+    
+  
+     
+    
+       <li class="list-group-item">
+       <label for="name" title="{$lang->admin->hints->title}"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="  {$lang->admin->hints->fn_size} 
+     " data-trigger="hover">
+      {$lang->admin->page->app->fn_size}</label>
+	  
+       <input class="form-control" type="text" name="input[]" required  value="{$admin->json->fontSize}"/>
+    
+  </li>
+      
+     
+    
+      <li class="list-group-item">
+	 
+       <input class="btn btn-primary " type="submit" name="submit"/></li>
+     
+   </ul>
+</form>

@@ -1,0 +1,43 @@
+{$admin->validate(4)}
+<div class="row"><div class="caption lead" >{showImg('__stylesheet/__images/icons/photos.png',16,16,'center')}{$lang->admin->page->settings->upload->title}</div>
+</div>
+
+ <div class="row">
+ <div class="col-md-6">
+     <ul class="list-group">
+	 <li class="list-group-item active">{$lang->admin->page->settings->upload->default}</li>
+	 <li class="list-group-item">
+    <img src="__photos/__bg/bg.jpg" width="500px" height="300px" style="border:2px solid white;"/> 
+	</li>
+	<li class="list-group-item">
+	<form action=""   class="form-inline" role="form" method="post" enctype="multipart/form-data">
+    {include file="templates/admin/include/tiny_parts/upload-form.html"}
+	</form>
+    </li>
+	 </ul>
+
+</div>
+ <div class="col-md-6">
+ 
+<form action="" method="post">
+	<div class="btn-group">
+   <input class="btn btn-success" type="submit" name="submit" value="Make Default" title="{$lang->admin->hints->title}"
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->page->settings->upload->m_default}" data-trigger="hover" />
+   <input class="btn btn-primary" type="submit" name="submit" value="Default" title="{$lang->admin->hints->title}"
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="{$lang->admin->page->settings->upload->default_msg}" data-trigger="hover"  />
+   </div>
+   <br/>
+   <br/>
+  
+  {include file="templates/admin/include/tiny_parts/buttons.html"} 
+  <br/>
+  <br/>
+    
+    <ul class="list-group">
+  {$admin->showImg(2)}
+  <ul>
+</form>
+
+</div></div>

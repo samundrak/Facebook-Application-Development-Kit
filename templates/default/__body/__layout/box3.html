@@ -1,0 +1,26 @@
+ <div class="box3">
+    <ul>
+	 
+	 {if adminOrder('make_pp') == 'on'}
+	  <li id="mpp"> 
+	  {showImg('__stylesheet/__images/icons/mpp.png',16,16,'center')}
+	  {$lang->index->mpp} 
+	  </li>
+	  {/if}
+	  
+	  {if adminOrder('dw_photo') == 'on'}
+	  <li id="dtp">
+	  {showImg('__stylesheet/__images/icons/dowload.png',16,16,'center')}
+	   {$lang->index->dtp} 
+	  </li>
+	  {/if}
+	  
+	  {if adminOrder('send_mail') == 'on'}
+	  <li id="etp">
+	  {showImg('__stylesheet/__images/icons/email.png',16,16,'center')}
+	  {$lang->index->etp} 
+	  </li>
+	  {/if}
+	  
+	</ul>
+ </div>

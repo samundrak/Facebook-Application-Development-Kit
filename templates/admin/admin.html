@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html  lang="{$lCode}">
+<title>Admin Panel</title>
+{include file= "default/__body/header.html"}
+<body>
+<div >
+<div class="container" style="box-shadow:2px 2px 15px;">
+<div class="row">
+ 
+ <div class="col-md-12" >
+   <a href="admin"><div id="head">
+   <div class="appName"> {if adminOrder('color','default') == "none"}
+	{else}
+	{adminOrder('app_name','info')}
+     {/if}</div>
+  </div></a>
+   </div>
+   
+   
+   <div class="col-md-12">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Options</a>
+   </div>
+<div class="collapse navbar-collapse" id="example-navbar-collapse"> 
+      <ul class="nav navbar-nav">
+      <li title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="bottom" 
+      data-content="{$lang->admin->info->license->msg}
+				    {$lang->admin->info->license->warning}
+				    " data-trigger="hover">	
+				     <a href="admin&tab=license">{showImg('__stylesheet/__images/icons/license.png',16,16,'center')}
+					 {$lang->admin->info->license->title}
+					 </a></li>
+					 
+      <li title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="bottom" 
+      data-content="{$lang->admin->info->app->msg}
+				   {$lang->admin->info->app->warning}
+				    " data-trigger="hover">
+		<a href="admin&tab=app">{showImg('__stylesheet/__images/icons/application.png',16,16,'center')}
+					{$lang->admin->info->app->title}
+	  </a></li>
+        <li title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="bottom" 
+      data-content="{$lang->admin->info->social->msg}
+				    {$lang->admin->info->social->warning}
+				    " data-trigger="hover">
+				    <a href="admin&tab=social">{showImg('__stylesheet/__images/icons/popup.png',16,16,'center')}
+					 {$lang->admin->info->social->title}
+					</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              {showImg('__stylesheet/__images/icons/more.png',16,16,'center')}
+				 {$lang->admin->info->settings->title}
+				  <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li id="profile" title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="left" 
+      data-content="{$lang->admin->info->profile->msg}									
+					 {$lang->admin->info->profile->warning}
+				    " data-trigger="hover">
+				
+				
+				    <a href="admin&tab=photo-profile">{showImg('__stylesheet/__images/icons/user_go.png',16,16,'center')}
+					{$lang->admin->info->profile->title}
+					</a>
+				</li>
+			    <li class="divider"></li>
+				<li id="generated" title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="left" 
+      data-content="	{$lang->admin->info->generated->msg}
+				    {$lang->admin->info->generated->warning}
+				    " data-trigger="hover">
+				 <a href="admin&tab=photo-generated">
+				 {showImg('__stylesheet/__images/icons/photo.png',16,16,'center')}
+			
+					 {$lang->admin->info->generated->title}
+					 </a>
+				</li>
+			      <li class="divider"></li>
+				<li id="upload" title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="left" 
+      data-content="{$lang->admin->info->upload->msg}
+					{$lang->admin->info->upload->warning}
+				    " data-trigger="hover">
+				
+				     <a href="admin&tab=photo-upload">
+					 {showImg('__stylesheet/__images/icons/photos.png',16,16,'center')}
+			
+					 {$lang->admin->info->upload->title}
+					 </a>
+				</li>
+			      <li class="divider"></li>
+				<li id="appImages" title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="left" 
+      data-content="{$lang->admin->info->appImages->msg}
+					{$lang->admin->info->appImages->warning}
+				    " data-trigger="hover">
+				<a href="admin&tab=app-images">	
+					{showImg('__stylesheet/__images/icons/app-image.png',16,16,'center')}
+					{$lang->admin->info->appImages->title}
+					</a>
+				</li>
+			      <li class="divider"></li>
+				<li id="appFonts"  >
+				 <a href="admin&tab=app-fonts">
+					{showImg('__stylesheet/__images/icons/font.png',16,16,'center')}
+					{$lang->admin->info->appFonts->title}
+					</a>
+				</li>
+			     <li class="divider"></li>
+			   <li id="deleteTmp" title="{$lang->admin->hints->title}" 
+      data-container="body" data-toggle="popover" data-placement="left" 
+      data-content="{$lang->admin->info->deleteTmp->msg}
+				   {$lang->admin->info->deleteTmp->warning}
+				    " data-trigger="hover">
+			     <a href="admin&tab=delete-tmp">
+					{showImg('__stylesheet/__images/icons/delete.png',16,16,'center')}
+				  {$lang->admin->info->deleteTmp->title}
+					</a>
+				</li>
+				    <li class="divider"></li>
+				  <li id="language" >
+				   <a href="admin&tab=language">
+					{showImg('__stylesheet/__images/icons/language.png',16,16,'center')}
+				    {$lang->admin->page->homepage->language}
+					</a>
+				</li>
+				<li class="divider"></li>
+				<li id="app-type" >
+				   <a href="admin&tab=app-type">
+					{showImg('__stylesheet/__images/icons/invite.png',16,16,'center')}
+				    {$lang->admin->page->homepage->app_type}
+					</a>
+				</li>
+				  
+            </ul>
+				{if $admin->user}	
+					
+        <li>    <a href="admin&tab=logout">
+					 {showImg('__stylesheet/__images/icons/logout.png',16,16,'center')}
+				    {$lang->admin->info->logout->title}
+				    </a></li>
+					{/if}
+       
+      </ul>
+   </div>
+</nav>
+   
+    <div class="col-md-12" style="background-color:#e7e7e7;">
+		{if $admin->user}
+		 {include file="admin/home.html"}
+		{else}
+		{if $admin->step == 'login'}
+		    {include file="admin/login.html"}
+		 {/if}
+		 {/if}
+   </div>
+ </div></div></div>
+ <script>$(function () 
+      { $("[data-toggle='popover']").popover();
+      });
+   </script>
+</body>
+</html>
+ 

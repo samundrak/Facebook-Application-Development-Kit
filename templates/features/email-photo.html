@@ -1,0 +1,37 @@
+ 
+<form name="mail-photo" action="" method="post" onsubmit="return formDo()">
+ 
+  
+<ul class="list-group" style="min-width:400px;max-width:400px;"> 
+ 
+ <li class="list-group-item active">
+      
+      <ul class="add_email_details">
+          <li>Send Email to your friend!</li>
+	</ul>
+     </li>
+ <li class="list-group-item">
+ <label for="name">
+ {$lang->index->from}</label><input class="form-control" type="text" name="from" value="{$name}" readonly/></li>
+
+ <li class="list-group-item">
+ <label for="name">
+ 
+ {$lang->index->to}</label><input class="form-control" type="text" name="to" placeholder="{$lang->index->to_hint}"/></li>
+
+ <li class="list-group-item">
+ <label for="name">
+ 
+ {$lang->index->photo}</label><img   src="__photos/__tmp/{$name}.jpg" width="50px" height="50px"/></li>
+
+ <li class="list-group-item">
+ <label for="name">
+ 
+ {$lang->index->msg}</label><textarea   class="form-control" name="msg">{$lang->index->snt_default}</textarea></li>
+
+<li class="list-group-item"><input class="btn btn-primary " type="submit" name="submit" id="submitButton"></li>
+  
+</ul>
+ 
+
+ </form>

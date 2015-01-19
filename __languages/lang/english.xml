@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app lang="en">
+ <index>
+         <mpp>Make Profile picture</mpp>
+		<dtp>Download this photo</dtp>
+		<etp>Email this photo</etp>
+		<p_wait>Please wait...</p_wait>
+		<loading>Loading...</loading>
+		<wait>While new Photo is created</wait>
+		<created>Created new photo</created>
+		<t_a_placeholder>Enter message you want to post or leave it blank ...</t_a_placeholder>
+		<postSuccess>Your post has been posted Successfully...</postSuccess>
+		<from>From</from>
+		<to>To</to>
+		<photo>Photo</photo>
+		<msg>Message</msg>
+		<ok>OK</ok>
+		<snt_default>CheckOut my photo now..</snt_default>
+		<to_hint>Whom you want to send..</to_hint>
+		<wDownload>File has been Created..</wDownload>
+		<onErr>Sorry! process couldn't be completed!</onErr>
+		<wPosting>Your message is being posting...</wPosting>
+		<mailError>You must insert email address.</mailError>
+		<mailSending>Sending your email.</mailSending>
+		<mailSent>Your Email Has been sent sucessfully.</mailSent>
+		<mailFail>Sorry we are unable to send this Email please try again!</mailFail>
+		<unknwnErr>Unknown problem occured!</unknwnErr>
+ </index>
+  <admin>
+  <alert>
+	<err_download_app>Error while downloading file may be some files are missing</err_download_app>
+     <err_dlt_app>You can't delete all app types at once</err_dlt_app>
+     <empty>Some values are empty!</empty>
+	 <unMatch>Provided data didn't matched! &lt;br/&gt; You have only 3 chance &lt;br/&gt; Be carefull if data will wrong you will'nt able to access server.</unMatch>
+	 <sFile>Social Setting file missing!</sFile>
+	 <bFile>Backup Setting file missing!</bFile>
+	 <fileMissing>License or config or social JSON file is missing!</fileMissing>
+	 <fDeleted>File has been deleted successfully!</fDeleted>
+	 <cOpen>Cannot open</cOpen>
+	 <dataUpdated>Your data has been updated sucessfully!</dataUpdated>
+	 <fReplace>File has been replace SuccessFully with </fReplace>
+	 <fUpload>File has been uploaded successfully!</fUpload>
+	 <invalid>Invalid type of File</invalid> 
+	 <err_in_activate>Problem to activate some problem found ! Some files are missing !</err_in_activate>
+	 <success_in_activate>Activated Successfully</success_in_activate>
+	 <err_app_type>Error uploading file please check all 4 image,php and json file exists in zip file you provide</err_app_type>
+  </alert>
+    <page>
+	<online>Online</online>
+	<offline>Offline</offline>
+	<person>Person</person>
+	<page>Page</page>
+	<on>ON</on>
+	 <act>Activate this App Type</act>
+	<off>OFF</off>
+	  <preview>Preview</preview>
+      <show>Show</show>
+      <hide>Hide</hide>
+      <allow>Allowed</allow>
+      <disallow>Denied</disallow>
+      <open>Open</open>
+      <close>Close</close>
+	  <dw>Select file to download.</dw>
+	  <dw_all>Download all files from here.</dw_all>
+	  <dt>Delete Selected file</dt>
+	  <dt_all>Delete all file of current directory.</dt_all>
+	  <login>
+	  <title>Admin Panel</title>
+	     <li>Your username of that you enter while registering app.</li>
+		 <li2>License key of this app that you enter while registering app.</li2>
+	  </login>
+      <homepage>
+		<app_mode>App Mode</app_mode>
+        <title>Admin Panel</title>
+		<color>Color</color>
+		<app>Goto App</app>
+        <popup>popUp</popup>
+        <ads_1>show ads of 720px X 90px</ads_1>
+        <ads_2>show ads of 300px X 300px</ads_2>
+        <ads_3>show ads of 400px X 90px</ads_3>
+        <send_mail>Allow user send email</send_mail>
+        <download_photo>Allow user download photo</download_photo>
+        <make_pp>Allow user make profile picture</make_pp>
+        <animation>Show animation</animation>
+        <copyright>Show Copyright on Image</copyright>
+        <copyright_msg>Copyright Msg on bottom of image.</copyright_msg>
+        <status>App</status>
+        <status_msg>Closed Msg shown while app is closed.</status_msg>
+        <language>Language</language>
+        <app_type>App Type</app_type>
+      </homepage>
+      <license>
+        <title>App License Details</title>
+        <username>Username</username>
+        <key>License key</key>
+        <email>Email</email>
+        <a_code>App code</a_code>
+        <d_code>Date code</d_code>
+      </license>
+      <app>
+        <title>App Details Form</title>
+        
+        <a_id>App Id</a_id>
+        <a_secret>App Secret</a_secret>
+        <a_url>App Url</a_url>
+        <f_page>Facebook page</f_page>
+        <p_msg>Post message</p_msg>
+        <i_msg>Invite message</i_msg>
+        <p_title>Page title</p_title>
+        <l_msg>Loading message</l_msg>
+        <t_a_placeholder>Text area placeholder</t_a_placeholder>
+        <ad_script>Ads Script</ad_script>
+        <ad_slot>Ads Slot</ad_slot>
+        <ad_slot2>Ads Slot 2</ad_slot2>
+        <ad_slot3>Ads Slot 3</ad_slot3>
+        <fn_name>Font Name</fn_name>
+        <fn_size>Font Size</fn_size>
+      </app>
+	  <social>
+	     <title>POP UP Settings</title>
+		 <p_title>Title</p_title>
+		 <announce>Announce</announce>
+		 <a_header>Announce header</a_header>
+		 <limit>Limit</limit>
+		 <out_click>Out click</out_click>
+		 <esc_click>Esc click</esc_click>
+		 <f_a_id>Facebook app id</f_a_id>
+		 <f_p_usr>Facebook page username</f_p_usr>
+		 <t_u>Twitter username</t_u>
+		 <t_w_i>Twitter widget id</t_w_i>
+		 <g_t>Google+ Type</g_t>
+		 <g_i>Google+ Id</g_i>
+	  </social>
+	  <settings>
+	  <profile>
+	  <title>Profile photo of user</title>
+	  </profile>
+	  <generated>
+	     <title>Generated images from App</title>
+	  </generated>
+	  <upload>
+	  <title>Change App Background</title>
+<default>Default image</default>
+<m_default>Select file to make default background.</m_default>
+<default_msg>Original file submitted with app will be make as default background.</default_msg>
+	  </upload>
+	  <appImages>
+	  <title>App Images</title>
+	  <r_msg>This image will replace with new image.</r_msg>
+	  <s_f>Select File</s_f>
+	  <s_t>Select Type</s_t>
+	  </appImages>
+	  <appFonts>
+	  <title>App fonts</title>
+	  </appFonts>
+	  <d_tmp>
+	  <title>Delete temporary Files</title>
+	  </d_tmp>
+	  </settings>
+    </page>
+    <hints>
+	<social>
+	     <p_title>TITLE OF PopUp BAR.</p_title>
+		 <announce>THIS IS ANNOUNCEMENT MESSAGE.</announce>
+		 <a_header>THIS IS ANNOUNCEMENT HEADER.</a_header>
+		 <limit>HOW MUCH TIMES YOU WANT TO SHOW PopUp USER PER DAY.</limit>
+		 <out_click>HIDE PopUp WHILE CLICKED ON BLACK PART.</out_click>
+		 <esc_click>HIDE PopUp WHILE "ESC" KEY PRESSED ON KEYBOARD.</esc_click>
+		 <f_a_id>APP ID OF FACEBOOK APPLICATION.</f_a_id>
+		 <f_p_usr>YOUR FACEBOOK PAGE USERNAME.</f_p_usr>
+		 <t_u>YOUR TWITTER USERNAME.</t_u>
+		 <t_w_i>YOUR TWITTER TIMELINE WIDGET ID YOU WILL GET THIS HERE https://twitter.com/settings/widgets/new YOU WILL GET ID WHEN YOU WILL GENERATE ID BY CLICKING CREATE WIDGET SEE DATA-WIDGET-ID IN GENERATED CODE AND ENTER CODE ONLY HERE.</t_w_i>
+		 <g_t>GOOGLE PAGE OR PERSON?</g_t>
+		 <g_i>THIS IS YOUR GOOGLE PLUS ID FOR PAGE/PERSON IT WILL BE LIKE THIS WHILE VISITING YOUR PROFILE IN GOOGLE PLUS PLUS.GOOGLE.COM/YOUR_GPLUS_CODE</g_i>
+	</social>
+      <title>Hints</title>
+      <ol>
+        <i>Don't leave any fields empty.</i>
+        <ii>Enter you details or leave it as on default settings.</ii>
+        <iii>If you are still unable to run apps sucessfully then goto Help.</iii>
+      </ol>
+      <a_name>Enter Your facebook application name.</a_name>
+      <a_id>Enter Your facebook application app id.</a_id>
+      <a_secret>Enter Your facebook application app Secret.</a_secret>
+      <a_url>Enter Your facebook application app url 
+        i.e http://apps.facebook.com/myapp</a_url>
+      <f_page>Enter Your facebook page URL
+        i.e http://www.facebook.com/myapps</f_page>
+      <p_msg>This message will be posted on users wall with photo.
+        Leave it blank if you want nothing to be posted. 
+        You can leave it default,If you don't want to change.</p_msg>
+      <i_msg>This message will be sent to people to whom user will invite for your app. 
+        You can leave it default,If you don't want to change.</i_msg>
+      <p_title>Enter Your facebook application page title.</p_title>
+      <l_msg>This message will be shown when photo is loading...
+        You can leave it default,If you don't want to change.</l_msg>
+      <t_a_placeholder>This will be shown on text area where user will type message to post. 
+        You can leave it default,If you don't want to change.</t_a_placeholder>
+      <ad_script>Advertisment Script tag,this will be included in head of the app.
+         
+        You will get this from you advertiser website.</ad_script>
+      <ad_slot>This is ads slot code which will be displayed down of photos
+	  Ads slot must be under 720px X 90px.  
+	  </ad_slot>
+      <ad_slot2>This is ads slot code which will be displayed down of photos,
+      Ads slot must be under 300px X 300px.   
+	</ad_slot2>
+      <ad_slot3>This is ads slot code which will be displayed down of photos, 
+      Ads slot must be under 400px X 90px.  </ad_slot3>
+      <fn_name>This font style will be used for text used in images.
+        You can leave it default,If you don't want to change.</fn_name>
+      <fn_size>Font size of text that will be used in images.
+        You can leave it default,If you don't want to change.</fn_size>
+    </hints>
+	<app_type>
+	<a_name>App Name</a_name>
+		<a_version>Version</a_version>
+		<a_code>App Code</a_code>
+		<a_released>Released On</a_released>
+		<a_updated>Updated On</a_updated>
+		<a_developed>Developed By</a_developed>
+		<a_website>Website</a_website>
+		<a_price>Price</a_price>
+		<a_status>Status</a_status>
+		<a_active>Active</a_active>
+		<a_not_active>Not Active</a_not_active>
+	</app_type>
+    <info>
+	<tFile>Total Files</tFile>
+   <fSpace>Filespace used</fSpace>
+	<updatedOn>Updated on</updatedOn>
+	<select>Select</select>
+	<size>Size</size>
+	<dimenson>Dimensions</dimenson>
+	<type>Type</type>
+      <license>
+        <title>License Setting</title>
+        <msg>Here you can change details of your license like license key,username,date code.</msg>
+        <warning>Be sure you have enter correct details else your app willn't work</warning>
+      </license>
+      <app>
+        <title>App Settings</title>
+        <msg>You can edit details of you app like appId,appSecret,Facebook Page,adveritse Script and all other details related to app.</msg>
+        <warning>Be sure you have enter correct details else your app willn't work.</warning>
+      </app>
+      <social>
+        <title>Social popup Settings</title>
+        <msg>Here you have to enter some details about your social networks like twitter,facebook and google username which will be shown 
+          while running app.</msg>
+        <warning>Be sure you have enter correct details else your app willn't work.</warning>
+      </social>
+      <settings>
+        <title>More Settings</title>
+      </settings>
+      <profile>
+        <title>Profile images</title>
+        <msg>This photos are the profile picture of user who used your app.This photos are downloaded 
+          and kept in your server.If you want then you can delete this photos.</msg>
+        <warning>All the profile photos that are downloaded will deleted.</warning>
+      </profile>
+      <generated>
+        <title>Generated images</title>
+        <msg>This photos are final images which is generated from app and stored in folder.</msg>
+        <warning>All the generated photos that are downloaded will deleted.</warning>
+      </generated>
+      <upload>
+        <title>Upload images</title>
+        <msg>If you have edited the main background images of generated image then you can upload 
+          it from here,After uploading this images your older background images will be replaced
+          with new one.Be sure width and height of images are 960 x 720px</msg>
+        <warning>Previous background image will be saved as backup.Click on default button to apply old background image.</warning>
+      </upload>
+      <appImages>
+        <title>App images</title>
+        <msg>If you want to change any image that are used in this app then you can upload and replace photo with previous one.</msg>
+        <warning>While replacing new images with old images, your old images will be deleted from server.</warning>
+      </appImages>
+      <appFonts>
+        <title>App Fonts</title>
+      </appFonts>
+      <deleteTmp>
+        <title>Delete Tmp</title>
+        <msg>Temporary files that has been created while downloading files will be deleted from your server.</msg>
+        <warning>This files will not affect any other program</warning>
+      </deleteTmp>
+      <logout>
+        <title>LogOut</title>
+      </logout>
+    </info>
+  </admin>
+</app>

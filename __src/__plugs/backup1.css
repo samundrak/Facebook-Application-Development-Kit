@@ -1,0 +1,160 @@
+
+body {
+/* background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -o-radial-gradient(center, [%color%] 20%, #333 100%); */
+} 
+
+#head{
+background: -webkit-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+}
+
+#content .box1 {
+background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+box-shadow: 0px 5px 5px rgb(27, 26, 26);
+-moz-box-shadow: 0px 5px 5px rgb(27, 26, 26);
+}
+ 
+ 
+ 
+ 
+.Xlose span {
+ 	background-color: [%color%];
+	 } 
+	 
+#content .box3 {
+background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -o-radial-gradient(center, [%color%] 20%, #333 100%);float: left;
+box-shadow: 0px 5px 5px rgb(27, 26, 26);
+-moz-box-shadow: 0px 5px 5px rgb(27, 26, 26);
+}
+ 
+ 
+ 
+ 
+#footer {
+background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+}
+ 
+ 
+ 
+.adsMedia {
+background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+}
+ 
+#content input {
+	 background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+	
+}
+ 
+#content select {
+	background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+}
+ 
+#content .tdStyle {
+	background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+	}
+ 
+#content input:focus {
+ 
+	outline-color: [%color%];
+ 
+}
+ 
+ 
+.caption {
+	 	background: -webkit-linear-gradient(bottom, [%color%] 10%, black);
+background: -moz-linear-gradient(bottom, [%color%] 10%, black);
+background: -ms-linear-gradient(bottom, [%color%] 10%, black);
+background: -o-linear-gradient(bottom, [%color%] 10%, black);
+ 
+}
+textarea {
+	 background: -webkit-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -moz-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -ms-radial-gradient(center, [%color%] 20%, #333 100%);
+	background: -o-radial-gradient(center, [%color%] 20%, #333 100%);
+	 
+}
+#hints {
+	background-color: [%color%];
+	 background: -webkit-linear-gradient(top, [%color%] 10%, black);
+	background: -moz-linear-gradient(top, [%color%] 10%, black);
+	background: -ms-linear-gradient(top, [%color%] 10%, black);
+	background: -o-linear-gradient(top, [%color%] 10%, black);
+	 
+}
+ 
+.hints {
+	background-color: [%color%];
+	background: -webkit-linear-gradient(top, [%color%] 10%, black);
+	background: -moz-linear-gradient(top, [%color%] 10%, black);
+	background: -ms-linear-gradient(top, [%color%] 10%, black);
+	background: -o-linear-gradient(top, [%color%] 10%, black);
+	 
+}
+ 
+ul li {
+	 
+	/* background: -webkit-radial-gradient(top, [%color%] 10%, black);
+	background: -moz-radial-gradient(top, [%color%] 10%, black);
+	background: -ms-radial-gradient(top, [%color%] 10%, black);
+	background: -o-radial-gradient(top, [%color%] 10%, black);
+	box-shadow: 0px 0px 10px black; */
+	
+}
+ 
+ul li:hover {
+ 
+	/* background: -webkit-linear-gradient(bottom, [%color%] 10%, black);
+	background: -moz-linear-gradient(bottom, [%color%] 10%, black);
+	background: -ms-linear-gradient(bottom, [%color%] 10%, black);
+	background: -o-linear-gradient(bottom, [%color%] 10%, black); */
+}
+ 
+.info_focus {
+	 
+background-color:[%color%];
+background: -webkit-linear-gradient(bottom, [%color%] 10%, black);
+background: -moz-linear-gradient(bottom, [%color%] 10%, black);
+background: -ms-linear-gradient(bottom, [%color%] 10%, black);
+background: -o-linear-gradient(bottom, [%color%] 10%, black);
+ 
+}
+ 
+ #alert .footer:hover{
+   background: -webkit-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -o-radial-gradient(center,[%color%] 20%, #333 100%);
+}
+#alert{
+background: -webkit-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -moz-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -ms-radial-gradient(center,[%color%] 20%, #333 100%);
+background: -o-radial-gradient(center,[%color%] 20%, #333 100%);
+}

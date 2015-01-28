@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-12-29 16:07:31
+<?php /* Smarty version Smarty-3.1.14, created on 2015-01-28 08:12:28
          compiled from ".\templates\default\__body\body.html" */ ?>
 <?php /*%%SmartyHeaderCode:1817354a16e33886dc9-30619701%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5e28dd9841ed0cba98f3a490f5ef9128be88f48d' => 
     array (
       0 => '.\\templates\\default\\__body\\body.html',
-      1 => 1419865626,
+      1 => 1422429143,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_54a16e339a0207_08161369',
   'variables' => 
   array (
     'app' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_link' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_54a16e339a0207_08161369',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_54a16e339a0207_08161369')) {function content_54a16e339a0207_08161369($_smarty_tpl) {?><?php if (!is_callable('smarty_function_add')) include 'C:\\xampp\\htdocs\\FADkit\\libs\\plugins\\function.add.php';
 ?><div id="sw_windowBox"></div>
@@ -121,13 +121,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	   </ul>
 	</div>
 
-   </div>
-     <div id="content" style="display:none"> 
-	 <?php if (adminOrder('popup')=="on"){?>
+   </div> 
+   <?php if (adminOrder('popup')=="on"){?>
 	 <?php echo smarty_function_add(array('tab'=>"social.html"),$_smarty_tpl);?>
 
 	 <?php }?>
 
+     <div id="content" style="display:none"> 
+	
 	<div id="popupFeature">
 	<ul class="list-group">
 	<li class="list-group-item active">

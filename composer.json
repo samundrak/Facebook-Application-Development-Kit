@@ -1,0 +1,20 @@
+{
+    "name": "FADkit",
+    "type": "framework",
+    "description": "Facebook Application Development kit (FADkit) is a Facebook apps management script where you can manage many Facebook app types from a single installation. Though it is good to make a single app for particular installation. ",
+    "keywords": ["application"," cms","development", "facebook", "facebook app", "facebook app php script"," facebook apps"," free facebook app", "free facebook app php scripts"," kit"],
+    "homepage": "https://github.com/samundrak/FADkit/",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Samundra kc",
+            "email": "samundrak@yahoo.com",
+            "homepage": "http://samundrakc.com.np",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+    
+}

@@ -7,6 +7,7 @@
 
 // APPBOOK
 // LIKE APP CMS
+//Composer> Composer install samundrak/fadkit dev-master
 
 HOW TO INSTALL ?
 1> UNZIP DOWNLOADED FILE IN SERVER

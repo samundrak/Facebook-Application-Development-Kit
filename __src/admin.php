@@ -365,9 +365,10 @@ public function editdefault(){
 			  <br/>
 			  '.$this->lang->admin->info->size.': '.substr((filesize($xx) / 1024),0,5) .'KB
 			  <br/>';
-			   if($ext == 'jpg' || $ext == 'jpeg' || $ext == 'png'|| $ext == 'gif' || $ext == 'bmp')
-			 echo $this->lang->admin->info->dimenson.': '.getimagesize($xx)[0]. ' x '.getimagesize($xx)[1];
-			 
+			   if($ext == 'jpg' || $ext == 'jpeg' || $ext == 'png'|| $ext == 'gif' || $ext == 'bmp'){
+				$arr =  getimagesize($xx);
+				 echo $this->lang->admin->info->dimenson.': '.$arr[0]. ' x '.$arr[1];
+			 }
 			 echo ' <br/>
 			  '.$this->lang->admin->info->type.': '.strtoupper($ext).' file
 		   </div></div> ';

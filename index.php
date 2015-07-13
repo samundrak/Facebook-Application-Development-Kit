@@ -29,7 +29,7 @@
   include '__src/__iii__.php'; 
   require('libs/Smarty.class.php');
   require_once 'lib/swift_required.php';  
-
+	//required
   $smarty = new smarty;
   $smarty->assign('lang',$lang);
   $smarty->assign('img_link',$img->outputFinalLink(1));

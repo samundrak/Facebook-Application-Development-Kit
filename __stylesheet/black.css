@@ -1,0 +1,214 @@
+
+body {
+ /*  background: -webkit-radial-gradient(center, black 20%, #333 100%);
+background: -moz-radial-gradient(center, black 20%, #333 100%);
+background: -ms-radial-gradient(center, black 20%, #333 100%);
+background: -o-radial-gradient(center, black 20%, #333 100%);  */
+} 
+
+#head{
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+/* background: -webkit-radial-gradient(center,black 20%, #333 100%);
+background: -moz-radial-gradient(center, black 20%, #333 100%);
+background: -ms-radial-gradient(center, black 20%, #333 100%);
+background: -o-radial-gradient(center, black 20%, #333 100%); */
+}
+
+#content .box1 {
+/* background: -webkit-radial-gradient(center, black 20%, #333 100%);
+background: -moz-radial-gradient(center, black 20%, #333 100%);
+background: -ms-radial-gradient(center, black 20%, #333 100%);
+background: -o-radial-gradient(center, black 20%, #333 100%); */
+box-shadow: 0px 5px 5px rgb(27, 26, 26);
+-moz-box-shadow: 0px 5px 5px rgb(27, 26, 26);
+}
+ 
+ 
+ .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+ }
+ .btn-primary {
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+ }
+.Xlose span {
+ 	background-color: black;
+	 } 
+	 
+#content .box3 {
+background-color:black;
+/* background: -webkit-radial-gradient(center, black 20%, #333 100%);
+background: -moz-radial-gradient(center, black 20%, #333 100%);
+background: -ms-radial-gradient(center, black 20%, #333 100%);
+background: -o-radial-gradient(center, black 20%, #333 100%); */
+float: left;
+box-shadow: 0px 5px 5px rgb(27, 26, 26);
+-moz-box-shadow: 0px 5px 5px rgb(27, 26, 26);
+}
+ 
+ 
+ 
+ 
+#footer {
+/* background: -webkit-radial-gradient(center, black 20%, #333 100%);
+background: -moz-radial-gradient(center, black 20%, #333 100%);
+background: -ms-radial-gradient(center, black 20%, #333 100%);
+background: -o-radial-gradient(center, black 20%, #333 100%); */
+background-color:black;
+}
+ 
+ 
+ 
+.adsMedia {
+background-color:black;
+/* background: -webkit-radial-gradient(center, black 20%, #333 100%);
+background: -moz-radial-gradient(center, black 20%, #333 100%);
+background: -ms-radial-gradient(center, black 20%, #333 100%);
+background: -o-radial-gradient(center, black 20%, #333 100%); */
+}
+ 
+#content input {
+	/*  background: -webkit-radial-gradient(center, black 20%, #333 100%);
+	background: -moz-radial-gradient(center, black 20%, #333 100%);
+	background: -ms-radial-gradient(center, black 20%, #333 100%);
+	background: -o-radial-gradient(center, black 20%, #333 100%); 
+	background-color:black;*/
+	
+}
+ 
+#content select {
+	/* background: -webkit-radial-gradient(center, black 20%, #333 100%);
+	background: -moz-radial-gradient(center, black 20%, #333 100%);
+	background: -ms-radial-gradient(center, black 20%, #333 100%);
+	background: -o-radial-gradient(center, black 20%, #333 100%); */
+	background-color:black;
+}
+ 
+#content .tdStyle {
+	/* background: -webkit-radial-gradient(center, black 20%, #333 100%);
+	background: -moz-radial-gradient(center, black 20%, #333 100%);
+	background: -ms-radial-gradient(center, black 20%, #333 100%);
+	background: -o-radial-gradient(center, black 20%, #333 100%); */
+	background-color:black;
+	}
+ 
+#content input:focus {
+ 
+	outline-color: black;
+ 
+}
+ 
+ 
+.caption {
+	 /* 	background: -webkit-linear-gradient(bottom, black 10%, black);
+background: -moz-linear-gradient(bottom, black 10%, black);
+background: -ms-linear-gradient(bottom, black 10%, black);
+background: -o-linear-gradient(bottom, black 10%, black); */
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+ 
+}
+textarea {
+/* 	 background: -webkit-radial-gradient(center, black 20%, #333 100%);
+	background: -moz-radial-gradient(center, black 20%, #333 100%);
+	background: -ms-radial-gradient(center, black 20%, #333 100%);
+	background: -o-radial-gradient(center, black 20%, #333 100%); */
+	background-color:black;
+	 
+}
+#hints {
+	background-color: black;
+	/*  background: -webkit-linear-gradient(top, black 10%, black);
+	background: -moz-linear-gradient(top, black 10%, black);
+	background: -ms-linear-gradient(top, black 10%, black);
+	background: -o-linear-gradient(top, black 10%, black);
+	  */
+}
+ 
+.hints {
+	background-color: black;
+	/* background: -webkit-linear-gradient(top, black 10%, black);
+	background: -moz-linear-gradient(top, black 10%, black);
+	background: -ms-linear-gradient(top, black 10%, black);
+	background: -o-linear-gradient(top, black 10%, black); */
+	 
+}
+ 
+ul li {
+	 
+	/* background: -webkit-radial-gradient(top, black 10%, black);
+	background: -moz-radial-gradient(top, black 10%, black);
+	background: -ms-radial-gradient(top, black 10%, black);
+	background: -o-radial-gradient(top, black 10%, black);
+	box-shadow: 0px 0px 10px black; */
+	
+}
+ 
+ul li:hover {
+ 
+	/* background: -webkit-linear-gradient(bottom, black 10%, black);
+	background: -moz-linear-gradient(bottom, black 10%, black);
+	background: -ms-linear-gradient(bottom, black 10%, black);
+	background: -o-linear-gradient(bottom, black 10%, black); */
+}
+ 
+.info_focus {
+	 
+/* background: -webkit-linear-gradient(bottom, black 10%, black);
+background: -moz-linear-gradient(bottom, black 10%, black);
+background: -ms-linear-gradient(bottom, black 10%, black);
+background: -o-linear-gradient(bottom, black 10%, black);
+ */ 
+}
+ 
+ #alert .footer:hover{
+ background-color:rgba(219, 219, 219, 0.44);
+/*    background: -webkit-radial-gradient(center,black 20%, #333 100%);
+background: -moz-radial-gradient(center,black 20%, #333 100%);
+background: -ms-radial-gradient(center,black 20%, #333 100%);
+background: -o-radial-gradient(center,black 20%, #333 100%); */
+}
+#alert .content{
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+}
+#alert .title{
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+}
+#alert .footer{
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+}
+#alert{
+background-color:black;
+/* background: -webkit-radial-gradient(center,black 20%, #333 100%);
+background: -moz-radial-gradient(center,black 20%, #333 100%);
+background: -ms-radial-gradient(center,black 20%, #333 100%);
+background: -o-radial-gradient(center,black 20%, #333 100%); */
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+z-index: 2;
+color: #fff;
+background:-webkit-radial-gradient(center,black 20%, #0A0909 100%);
+background: -moz-radial-gradient(center,black 20%, #0A0909 100%);
+background: -ms-radial-gradient(center,black 20%, #0A0909 100%);
+background: -o-radial-gradient(center,black 20%, #0A0909 100%);
+border-color: black;
+}

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2015-07-12 21:32:15
+<?php /* Smarty version Smarty-3.1.14, created on 2015-07-19 23:08:17
          compiled from "./templates/default/__body/body.html" */ ?>
-<?php /*%%SmartyHeaderCode:167565208655a28c034b2cf1-68911992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:64004799155abdd05e73035-53090955%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd814d8b5feaaf387dd6a53b5e5ecc4e0ba222d20' => 
     array (
       0 => './templates/default/__body/body.html',
-      1 => 1422429143,
+      1 => 1437326277,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '167565208655a28c034b2cf1-68911992',
+  'nocache_hash' => '64004799155abdd05e73035-53090955',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_55a28c03567a64_74930560',
+  'unifunc' => 'content_55abdd05eebc82_39358027',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55a28c03567a64_74930560')) {function content_55a28c03567a64_74930560($_smarty_tpl) {?><?php if (!is_callable('smarty_function_add')) include '/var/www/FADkit/libs/plugins/function.add.php';
+<?php if ($_valid && !is_callable('content_55abdd05eebc82_39358027')) {function content_55abdd05eebc82_39358027($_smarty_tpl) {?><?php if (!is_callable('smarty_function_add')) include '/var/www/Facebook-Application-Development-Kit/libs/plugins/function.add.php';
 ?><div id="sw_windowBox"></div>
 <div id="fb-root"></div>
 <div class="row">

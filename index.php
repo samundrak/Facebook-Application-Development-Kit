@@ -31,6 +31,7 @@
   require_once 'lib/swift_required.php';  
 	//required
   $smarty = new smarty;
+  echo 1;
   $smarty->assign('lang',$lang);
   $smarty->assign('img_link',$img->outputFinalLink(1));
   $smarty->assign('fb',$fb);

@@ -19,7 +19,7 @@ background-color:#428bca;
 	-moz-animation: anim_2 3s;
 	-ms-animation: anim_2 3s;
 	-o-animation: anim_2 3s;*/
-	background-image:url('__images/logo.png');
+	/*background-image:url('__images/logo.png');*/
 	background-repeat:no-repeat;
 }
 #head .appName{font-family:fontOfApp;

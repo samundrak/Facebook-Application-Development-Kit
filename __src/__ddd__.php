@@ -90,7 +90,7 @@ if ( !isset( $session ) || $session === null ) {
 if ( !isset( $session ) ) {
   
   // show login url
-  $loginUrl = $helper->getLoginUrl( array( 'publish_actions','email', 'user_photos','user_friends','public_profile','publish_stream,user_about_me,photo_upload,read_friendlists ' ) ) ;// 
+  $loginUrl = $helper->getLoginUrl( array( 'publish_actions','email', 'user_photos','user_friends','public_profile','publish_stream','user_about_me','photo_upload','read_friendlists' ) ) ;// 
   echo '<script>window.top.location="'.$loginUrl.'";</script>';
   exit();
   }

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2015-07-12 21:56:37
+<?php /* Smarty version Smarty-3.1.14, created on 2025-08-18 09:42:52
          compiled from "templates/admin/include/tiny_parts/buttons.html" */ ?>
 <?php /*%%SmartyHeaderCode:197448178055a291b923f630-61788875%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1572c5c1f2b67a11e8f320f9101326ed1a0e8612' => 
     array (
       0 => 'templates/admin/include/tiny_parts/buttons.html',
-      1 => 1413835051,
+      1 => 1755507186,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_55a291b9291609_89243051',
   'variables' => 
   array (
     'lang' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_55a291b9291609_89243051',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_55a291b9291609_89243051')) {function content_55a291b9291609_89243051($_smarty_tpl) {?> 
 <div class="btn-group">

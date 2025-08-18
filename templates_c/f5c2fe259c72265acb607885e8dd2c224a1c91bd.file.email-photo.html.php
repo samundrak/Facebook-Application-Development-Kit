@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2015-07-12 21:34:48
+<?php /* Smarty version Smarty-3.1.14, created on 2025-08-18 09:40:40
          compiled from "templates/features/email-photo.html" */ ?>
 <?php /*%%SmartyHeaderCode:17985357355a28c9c078249-88831016%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f5c2fe259c72265acb607885e8dd2c224a1c91bd' => 
     array (
       0 => 'templates/features/email-photo.html',
-      1 => 1417500363,
+      1 => 1755507186,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_55a28c9c1366a4_85271324',
   'variables' => 
   array (
     'lang' => 0,
     'name' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_55a28c9c1366a4_85271324',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_55a28c9c1366a4_85271324')) {function content_55a28c9c1366a4_85271324($_smarty_tpl) {?> 
 <form name="mail-photo" action="" method="post" onsubmit="return formDo()">

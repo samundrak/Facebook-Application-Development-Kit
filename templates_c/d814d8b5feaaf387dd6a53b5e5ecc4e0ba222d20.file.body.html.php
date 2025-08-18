@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2015-07-12 21:32:15
+<?php /* Smarty version Smarty-3.1.14, created on 2025-08-18 09:39:01
          compiled from "./templates/default/__body/body.html" */ ?>
 <?php /*%%SmartyHeaderCode:167565208655a28c034b2cf1-68911992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd814d8b5feaaf387dd6a53b5e5ecc4e0ba222d20' => 
     array (
       0 => './templates/default/__body/body.html',
-      1 => 1422429143,
+      1 => 1755507186,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_55a28c03567a64_74930560',
   'variables' => 
   array (
     'app' => 0,
@@ -22,10 +24,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_link' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_55a28c03567a64_74930560',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55a28c03567a64_74930560')) {function content_55a28c03567a64_74930560($_smarty_tpl) {?><?php if (!is_callable('smarty_function_add')) include '/var/www/FADkit/libs/plugins/function.add.php';
+<?php if ($_valid && !is_callable('content_55a28c03567a64_74930560')) {function content_55a28c03567a64_74930560($_smarty_tpl) {?><?php if (!is_callable('smarty_function_add')) include '/var/www/html/libs/plugins/function.add.php';
 ?><div id="sw_windowBox"></div>
 <div id="fb-root"></div>
 <div class="row">

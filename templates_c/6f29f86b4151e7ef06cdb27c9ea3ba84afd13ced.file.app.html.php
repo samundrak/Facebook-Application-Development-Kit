@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2015-07-12 21:56:27
+<?php /* Smarty version Smarty-3.1.14, created on 2025-08-18 09:41:48
          compiled from "templates/admin/include/app.html" */ ?>
 <?php /*%%SmartyHeaderCode:47316504755a291af279617-42451331%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6f29f86b4151e7ef06cdb27c9ea3ba84afd13ced' => 
     array (
       0 => 'templates/admin/include/app.html',
-      1 => 1417625363,
+      1 => 1755507186,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_55a291af517cd4_14794022',
   'variables' => 
   array (
     'admin' => 0,
     'lang' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_55a291af517cd4_14794022',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_55a291af517cd4_14794022')) {function content_55a291af517cd4_14794022($_smarty_tpl) {?>
 <div class="row"><div class="caption lead" ><div style="color:white;width:auto;background-color:red;"><?php echo $_smarty_tpl->tpl_vars['admin']->value->editConfig();?>
